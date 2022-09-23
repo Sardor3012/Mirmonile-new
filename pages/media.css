@@ -1,0 +1,915 @@
+@media only screen and (max-width: 1400px) {
+  .container {
+    width: 1200px;
+  }
+
+  .categories .left .apple img {
+    width: 450px;
+    position: relative;
+    top: -40px;
+    left: -120px !important;
+  }
+
+  .accessories {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .accessories img {
+    height: 100px;
+  }
+
+  .catalog img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .sd {
+    justify-content: center;
+  }
+
+  .colors {
+    justify-content: center;
+  }
+
+  .description p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    width: 1100px;
+  }
+
+  .swiper-slide p {
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+
+  .categories .left .apple img {
+    width: 450px;
+    position: relative;
+    top: -40px;
+    left: -80px !important;
+  }
+
+  .categories .honor img {
+    width: 1000px;
+    position: relative;
+    left: -103%;
+    transform: rotate(-50deg);
+    top: 72px;
+  }
+
+  .swiper-slide .left {
+    width: 40%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .catalog img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .sd {
+    justify-content: center;
+  }
+
+  .colors {
+    justify-content: center;
+  }
+
+  .description p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+
+  nav.categories .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  nav.categories .right .item {
+    width: 100%;
+
+  }
+
+  nav.categories .right .honor {
+    height: 60%;
+  }
+
+  nav.categories .right .samsung {
+    height: 40%;
+  }
+
+  .categories .honor img {
+    width: 1000px;
+    position: relative;
+    left: -150px;
+    transform: rotate(0deg);
+    top: 72px;
+  }
+
+  .categories .left .apple img {
+    width: 450px;
+    position: relative;
+    top: 70px;
+    bottom: -50px;
+    left: 30px;
+    right: -30px;
+  }
+
+  .categories .samsung img {
+    width: 500px;
+    left: 0;
+    top: 95px;
+    position: relative;
+    transform: rotate(0deg);
+  }
+
+  .categories .samsung p {
+    top: 20px;
+
+  }
+
+  .modal .item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal .item .all {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    width: 900px;
+  }
+
+  .about span {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .about p {
+    font-size: 30px;
+  }
+
+  .catalog {
+    justify-content: space-between;
+  }
+
+  .catalog img {
+    width: 255px;
+    height: 260px;
+  }
+
+  .modal #img {
+    width: 460px;
+    height: 330px;
+    object-fit: contain;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+
+  .categories .redmi img {
+    transform: rotate(0deg);
+    left: -60px;
+    top: 30px;
+    position: relative;
+  }
+
+  .categories .honor p {
+    position: absolute;
+    left: 30px;
+    top: 40px;
+  }
+
+  .categories .honor img {
+    width: 800px;
+    position: relative;
+    left: -205px;
+    transform: rotate(0deg);
+    top: 72px;
+  }
+
+  .categories .honor {
+    height: 60%;
+  }
+
+  .swiper-slide .left span {
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .swiper-slide p {
+    font-size: 26px !important;
+    line-height: 10px !important;
+  }
+
+  .accessories .item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 60px;
+    background: #F8F9FA;
+    border-radius: 16px;
+  }
+
+  footer .head-a {
+    font-weight: 800 !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    color: #000000;
+    white-space: nowrap;
+  }
+
+  footer .links a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 7px;
+    color: #000000;
+  }
+
+  .catalog img {
+    width: 220px;
+    height: 220px;
+  }
+
+  header .left h1 {
+    font-size: 28px !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  .container,
+  .gift {
+    width: 700px !important;
+  }
+
+  .categories .left .apple img {
+    width: 400px;
+    position: relative;
+    top: 110px;
+    bottom: -50px;
+    left: 30px;
+    right: -30px;
+  }
+
+  .categories .item button {
+    background-color: #FFFFFF !important;
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    left: auto;
+    right: 0;
+    z-index: 4;
+    scale: 0.7;
+    transition: 1s;
+    white-space: nowrap;
+  }
+
+  .categories .item:hover::after {
+    transform: scaleX(0);
+  }
+
+  .categories .item:hover button {
+    scale: 0.7;
+  }
+
+  .categories .item p {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    right: auto;
+    bottom: auto;
+  }
+
+  .categories .apple .img {
+    height: 80%;
+    overflow: hidden;
+  }
+
+  .accessories .item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px 34px;
+    background: #F8F9FA;
+    border-radius: 16px;
+  }
+
+  footer .top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer .right {
+    width: 100%;
+  }
+
+  .header-text p {
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  .header-text {
+    text-align: center;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  header h1,
+  footer h2 {
+    font-size: 24px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+    font-weight: 900;
+  }
+
+  header .hd-middle {
+    display: none !important;
+  }
+
+  .header-text span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .about p {
+    font-size: 22px;
+  }
+
+  .about span {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .item .img-block::before {
+    transform: scaleY(0);
+  }
+
+
+  header button {
+    display: block;
+  }
+
+  .catalog img {
+    width: 190px;
+    height: 190px;
+  }
+
+  header .around {
+    display: none !important;
+  }
+
+  .assortiment {
+    display: none !important;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .smartphones {
+    margin-top: 30px;
+  }
+
+  .modal #img {
+    width: 370px;
+    height: 250px;
+    object-fit: contain;
+  }
+
+  footer h2 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  .container,
+  .gift {
+    max-width: 600px !important;
+  }
+
+  .categories .samsung img {
+    width: 367px;
+    left: -22px;
+    top: 95px;
+    position: relative;
+    transform: rotate(0deg);
+  }
+
+  .categories .left .apple img {
+    width: 374px;
+    position: relative;
+    top: 110px;
+    bottom: -50px;
+    left: 30px;
+    right: -30px;
+  }
+
+  .consult .left {
+    height: 30px;
+  }
+
+  .gift {
+    padding: 50px;
+  }
+
+  .modal .colors .bot {
+    width: 90px;
+    height: 43px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .consult a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+  }
+
+  .modal .colors .dot {
+    width: 100px;
+    height: 65px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .swiper-slide .left button,
+  .accessories .item button,
+  .categories .item button {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    padding: 6px 10px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #00000000;
+    color: #000000;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 200px;
+    width: 170px;
+  }
+
+  .swiper-slide p {
+    font-size: 22px !important;
+    line-height: 20px !important;
+  }
+
+  .swiper-slide .left span {
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .accessories .item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 30px 34px;
+    background: #F8F9FA;
+    border-radius: 16px;
+  }
+
+  .accessories .item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 12px;
+    background: #F8F9FA;
+    border-radius: 16px;
+  }
+
+  .accessories img {
+    height: 80px;
+  }
+
+  .accessories .item p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .modal #img {
+    width: 300px;
+    height: 165px;
+    object-fit: contain;
+  }
+
+  .sd span {
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .modal .all h2 {
+    font-size: 24px !important;
+  }
+
+  .description h3 {
+    font-size: 16px !important;
+  }
+
+  .description p {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .container,
+  .gift,
+  .header-text {
+    width: 500px !important;
+  }
+
+  nav.categories {
+    display: flex;
+    gap: 15px;
+    height: 630px;
+  }
+  .catalog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .categories .left .apple img {
+    width: 318px;
+    position: relative;
+    top: 75px;
+    bottom: -50px;
+    left: 30px;
+    right: -30px;
+  }
+
+  .categories .redmi img {
+    transform: rotate(0deg);
+    left: -131px;
+    top: 45px;
+    width: 350px;
+    position: relative;
+  }
+
+  .categories .honor img {
+    width: 600px;
+    position: relative;
+    left: -165px;
+    transform: rotate(0deg);
+    top: 72px;
+  }
+
+  .accessories .img {
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .accessories .item {
+    padding: 20px 0px;
+  }
+
+  .swiper-slide .left {
+    width: 50%;
+  }
+
+  .swiper-slide .right {
+    width: 40%;
+  }
+
+  .catalog img {
+    width: 165px;
+    height: 165px;
+  }
+
+  .catalog {
+    font-size: 12px;
+  }
+
+  .header {
+    font-size: 25px;
+  }
+
+  .head-cat h2 {
+    font-size: 22px;
+  }
+
+  .smartphones {
+    gap: 10px;
+  }
+
+  .modal #img {
+    width: 280px;
+    height: 165px;
+    object-fit: contain;
+  }
+
+  .colors .dot {
+    width: 90px !important;
+    height: 40px !important;
+  }
+
+  .colors .dot::after {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .modal .colors .dot span {
+    text-align: center;
+    margin-bottom: -7px;
+  }
+
+  .modal .all {
+    gap: 5px;
+  }
+
+  .modal button {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container,
+  .gift,
+  .header-text {
+    width: 400px !important;
+  }
+
+  .swiper-slide .left span {
+    font-weight: 200;
+    font-size: 8px;
+    line-height: 10px;
+    color: #000000;
+  }
+
+  .swiper-slide p {
+    font-size: 16px !important;
+    line-height: 15px !important;
+  }
+
+  header img {
+    width: 25px;
+  }
+
+  header h1,
+  footer h2 {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 5px;
+    font-weight: 900;
+  }
+
+  .categories .left .apple img {
+    width: 276px;
+    position: relative;
+    top: 75px;
+    bottom: -50px;
+    left: 30px;
+    right: -30px;
+  }
+
+  .categories .samsung img {
+    width: 270px;
+    left: -22px;
+    top: 95px;
+    position: relative;
+    transform: rotate(0deg);
+  }
+
+ .categories .redmi img {
+    transform: rotate(0deg);
+    left: -177px;
+    top: 53px;
+    width: 320px;
+    position: relative;
+  }
+  .header-text p {
+    font-weight: 400;
+    font-size: 16px;
+}
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 25px;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+  }
+  .header-text span {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+.consult .left{
+  width: 180px;
+}
+.gift img {
+  width: 140px;
+}
+footer .head-a {
+  font-weight: 800 !important;
+  font-size: 12px !important;
+  line-height: 4px !important;
+  color: #000000;
+  white-space: nowrap;
+}
+footer .links a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 0px;
+  color: #000000;
+}
+footer .bottom a,
+footer .bottom span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+}
+.swiper-slide .left button, .accessories .item button, .categories .item button {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  padding: 2px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #00000000;
+  color: #000000;
+  height: auto;
+  border: 1px solid #000000;
+  border-radius: 200px;
+  width: 140px;
+}
+.accessories .img {
+  width: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accessories img {
+  height: 68px;
+}
+.accessories .item p {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 0px;
+  text-align: center;
+  color: #000000;
+}
+footer h2 {
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+.gift span {
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 13px;
+  text-align: left;
+  color: #000000;
+}
+.about span {
+  font-size: 8px;
+  font-weight: 300;
+}
+.about p {
+  font-size: 16px;
+}
+  main .container,
+  footer .container {
+    max-width: 350px;
+  }
+
+  .catalog img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .modal #img {
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
+  }
+
+  .sd {
+    justify-content: center;
+  }
+
+  .sd span {
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .modal #img {
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
+  }
+
+  .description p {
+    font-size: 10px !important;
+    line-height: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container,
+  .gift,
+  .header-text {
+    width: 350px !important;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 17px;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+.categories .samsung img {
+  width: 235px;
+  left: -22px;
+  top: 75px;
+  position: relative;
+  transform: rotate(0deg);
+}
+.categories .redmi img {
+  transform: rotate(0deg);
+  left: -206px;
+  top: 53px;
+  width: 290px;
+  position: relative;
+}
+.categories .honor img {
+  width: 529px;
+  position: relative;
+  left: -165px;
+  transform: rotate(0deg);
+  top: 72px;
+}
+.accessories .img {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categories .left .apple img{
+width: 240px;
+    position: relative;
+    top: 111px;
+    bottom: -50px;
+    left: 30px;
+    right: -30px;
+}
+  .catalog img {
+    width: 140px;
+    height: 140px;
+  }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="hd-left">
+            <h1>MIRMOBILE</h1>
+        </div>
+        <div class="hd-middle">
+          <a href="./mirmobile.html">Главная страница</a>
+            <a href="./all_products.html">Все продукты</a>
+            <a href="#footer">Про нас</a>
+            <a href="tel:+998979278666">Помощь</a>
+        </div>
+        <div class="hd-right">
+          <a href="https://t.me/samsung_samarkand_online">
+            <img src="./images/telegram.png" class="icon"></img>
+          </a>
+          <a href="tel:+998979278666">
+            <img src="./images/telephone.png" class="icon"></img>
+          </a>
+        </div>
+    </div>
+</header>
+    <main>
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="left">
+                        <p>Закажи iPhone 14 серии</p>
+                        <span>Оставьте заявку на предзаказ iPhone 14 серии и станьте одним из первых обладателей горячих новинок!
+                          Коллекция новых Iphone впервые у нас в Самарканде. Наш магазин давно специализируется на поставках смартфонов от ведущего американского производителя.</span>
+                          <button>
+                            <a href="./apple.html">Узнать больше</a>
+                            </button>                         </div>
+                        <div class="right">
+                          <img src="./images/iphone-14-pro-finish-unselect-gallery-1-202209.png" alt="">
+                        </div>
+                  </div>
+                  <div class="swiper-slide">
+                      <video controls="controls" autoplay>
+                        <source src="./images/Introducing-iPhone-14-Pro-Apple.mp4">
+                      </video>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="header-text">
+                    <p>MIRMOBILE представляет коллекцию телефонов высшего качества</p>
+                    <span>Для удобства поиска клиентами интересующих гаджетов предлагаемая покупателям продукция распределена на категории. Это позволяет быстро и легко выбрать смарфоны таких крупных компаний как Apple, Redmi, Honor, Samsung.</span>
+                  </div>
+              </div>
+
+              <div  class="head-cat samsung">
+                <h2>Samsung</h2>
+                <div id="samsung" class="catalog samsung">
+                </div>
+            </div>
+              </div>
+            </div>
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <div class="top">
+          <div class="left">
+            <h2>MIRMOBILE</h2>
+          </div>
+          <div class="right">
+            <div class="links">
+              <a href="./all_products.html" class="head-a">Все продукты</a>
+              <a href="./all_products.html">Cмартфоны</a>
+              <a href="./accessoriers.html">Зарядные устройства</a>
+              <a href="./watchs.html">Часы</a>
+              <a href="./headphones.html">Наушники</a>
+            </div>
+            <div class="links">
+              <a href="./mirmobile.html" class="head-a">Главная страница</a>
+              <a href="./mirmobile.html">Что мы предлагаем</a>
+              <a href="tel:+998979278666">Помощь</a>
+            </div>
+            <div class="links">
+              <a class="head-a">Следите за нами</a>
+              <a href="https://t.me/samsung_samarkand_online">Telegram</a>
+              <a href="https://www.instagram.com/mirmobile_samsungshop/">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="container">
+          <span>Made by: <a href="https://www.instagram.com/daavlat.me/">davlat.me</a></span>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="modal">
+      <div class="container">
+          <img width="20px" src="./images/free-icon-clear-1632708.png" alt="" class="x">
+          <div class="item"> 
+              <div class="img-cl">
+                  <img id="img" src="" alt="">
+              </div>
+          <div class="all">
+              <div class="description">
+                  <h2>Samsung A13</h2>
+                  <h3>Описание</h3>
+                  <p>Galaxy A13 сочетает деликатные цвета и приятную на ощупь текстуру. Благодаря изящным изгибам его удобно держать при работе с экраном. Выберите цвет по вкусу: черный, белый, голубой или персиковый.</p>
+              </div>
+              <div class="sd">
+              </div>
+              <div class="colors">
+              </div>
+              <a href="tel:+998979278888">
+                  <button>Позвонить</button>
+              </a>
+      </div>
+      </div>
+      </div>
+  </div>
+
+    <script src="./samsung.js"></script>
+             <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         pagination: {
+           el: ".swiper-pagination",
+           type: "progressbar",
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+       });
+     </script>
+     </body>
+     </html>
